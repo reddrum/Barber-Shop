@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5eec405e-7bcc-4e75-b8ba-1976e3ab62f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20_1.rb" afterPath="$PROJECT_DIR$/20_1.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
     </list>
     <ignored path="Lesson20.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="20_1.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/20_1.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08813161">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.28202116">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -220,8 +219,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/20_1.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08813161">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.28202116">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
