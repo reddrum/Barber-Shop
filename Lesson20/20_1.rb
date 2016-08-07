@@ -12,9 +12,31 @@ post '/' do
   @title = 'Thank you!'
   @message = "Dear #{@user_name}, we'll be waiting for you at #{@date_time}"
 
-  f = File.open 'users.txt', 'a'
-  f.write "User: #{@user_name}, phone: #{@phone}, date&time: #{@date_time}"
+  f = File.open './public/users.txt', 'a'
+  f.write "User: #{@user_name}, Phone: #{@phone}, Date&time: #{@date_time}"
   f.close
 
   erb :message
 end
+
+get '/admin' do
+  erb :admin
+end
+
+post '/admin' do
+  @login = params[:aaa]
+  @password = params[:bbb]
+
+  if @login == 'admin' && @password == 'qwerty'
+    @logfile = File.readlines('users.txt')
+    erb :admin
+  else
+    'Error!'
+  end
+end
+
+
+
+
+
+
