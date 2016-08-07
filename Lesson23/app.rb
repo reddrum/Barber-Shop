@@ -20,9 +20,10 @@ post '/visit' do
   @username = params[:username]
   @phone = params[:phone]
   @datetime = params[:datetime]
+  @color = params[:color]
 
   @title = 'Thank you!'
-  @message = "Dear #{@username}, we'll be waiting for you at #{@datetime}"
+  @message = "Dear #{@username}, we'll be waiting for you at #{@datetime}, #{@color}"
 
   f = File.open './public/users.txt', 'a'
   f.write "Name: #{@name}, User: #{@username}, Phone: #{@phone}, Date&time: #{@datetime}"
