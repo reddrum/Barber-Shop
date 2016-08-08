@@ -29,6 +29,11 @@ post '/visit' do
   f.write "Name: #{@name}, User: #{@username}, Phone: #{@phone}, Date&time: #{@datetime}"
   f.close
 
+  if @username == ''
+    @error = 'Введите имя'
+    return erb :visit
+  end
+    
   erb :message
 end
 
