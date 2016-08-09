@@ -5,7 +5,9 @@ require 'sinatra/reloader'
 require 'sqlite3'
 
 def get_db
-  return SQLite3::Database.new 'barbershop.db'
+  db = SQLite3::Database.new 'barbershop.db'
+  db.results_as_hash = true
+  return db
 end
 
 configure do
@@ -74,29 +76,36 @@ post '/visit' do
   erb "<h2>Спасибо, вы записались!</h2>"
 end
 
-get '/contacts' do
-	erb :contacts
+get '/showusers' do
+  erb 'Hello'
 end
 
-post '/contacts' do
-  @email = params[:email]
-  @text = params[:text]
 
-  @title = 'Thank you!'
-  @message = "Ваше сообщение отправлено!"
 
- # f = File.open './public/contacts.txt', 'a'
- # f.write "Email: #{@email}, Text: #{@text}"
- # f.close
-  hh = { :email => 'Ввведите ваш e-mail',
-         :text => 'Введите текст', }
 
-  @error = hh.select {|key,_| params[key] == ""}.values.join(", ")
-
-  if @error != ''
-    return erb :contacts
-  end
-
-  erb :message
-end
+# get '/contacts' do
+# 	erb :contacts
+# end
+#
+# post '/contacts' do
+#   @email = params[:email]
+#   @text = params[:text]
+#
+#   @title = 'Thank you!'
+#   @message = "Ваше сообщение отправлено!"
+#
+#  # f = File.open './public/contacts.txt', 'a'
+#  # f.write "Email: #{@email}, Text: #{@text}"
+#  # f.close
+#   hh = { :email => 'Ввведите ваш e-mail',
+#          :text => 'Введите текст', }
+#
+#   @error = hh.select {|key,_| params[key] == ""}.values.join(", ")
+#
+#   if @error != ''
+#     return erb :contacts
+#   end
+#
+#   erb :message
+# end
 
