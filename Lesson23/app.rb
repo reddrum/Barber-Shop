@@ -54,9 +54,17 @@ post '/contacts' do
   @title = 'Thank you!'
   @message = "Ваше сообщение отправлено!"
 
-  f = File.open './public/contacts.txt', 'a'
-  f.write "Email: #{@email}, Text: #{@text}"
-  f.close
+ # f = File.open './public/contacts.txt', 'a'
+ # f.write "Email: #{@email}, Text: #{@text}"
+ # f.close
+  hh = { :email => 'Ввведите ваш e-mail',
+         :text => 'Введите текст', }
+
+  @error = hh.select {|key,_| params[key] == ""}.values.join(", ")
+
+  if @error != ''
+    return erb :contacts
+  end
 
   erb :message
 end
