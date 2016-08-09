@@ -25,25 +25,27 @@ post '/visit' do
   @title = 'Thank you!'
   @message = "Dear #{@username}, we'll be waiting for you at #{@datetime}, #{@color}"
 
-  f = File.open './public/users.txt', 'a'
-  f.write "Name: #{@name}, User: #{@username}, Phone: #{@phone}, Date&time: #{@datetime}"
-  f.close
-
-  if @username == ''
-    @error = 'Введите имя'
-  end
+  #f = File.open './public/users.txt', 'a'
+  #f.write "Name: #{@name}, User: #{@username}, Phone: #{@phone}, Date&time: #{@datetime}"
+  #f.close
   
-  if @phone == ''
-    @error = 'Введите номер телефона'
-  end
+  # хеш
+  hh = { :username => 'Ввведите имя',
+         :phone => 'Введите номер телефона', 
+         :datetime => 'Введите дату и время' }
+  # для каждой пары ключ-значение
+  hh.each do |key, value|
+    # если параметр пуст
+    if params[key] == ''
+      # переменной error присвоить value из хеша hh
+      # (а value из хеша hh это сообщение об ошибке)
+      # т.е. переменной error присвоить сообщение об ошибке
+      @error = hh[key]
 
-  if @datetime == ""
-    @error = 'Неправильная дата и время'
+      # вернуть представление visit
+      return erb :visit
+    end  
   end  
-
-  if @error != ''
-    return erb :visit
-  end
 
   erb :message
 end
