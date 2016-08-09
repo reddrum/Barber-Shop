@@ -9,8 +9,8 @@ def get_db
 end
 
 configure do
-  @db = get_db
-  @db.execute 'CREATE TABLE IF NOT EXISTS
+  db = get_db
+  db.execute 'CREATE TABLE IF NOT EXISTS
       "Users"
       (
             "id" INTEGER PRIMARY KEY AUTOINCREMENT,
