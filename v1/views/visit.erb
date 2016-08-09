@@ -10,10 +10,10 @@
 <form action="/visit" method="POST" role="form">
   <div class="form-group">
 	  <label>Выберите парикмахера</label>
-	  <select name="name" class="form-control">
-	  <option <%= @name == 'Walter White' ? 'selected' : '' %>>Walter White</option>
-	  <option <%= @name == 'Jessie Pinkman' ? 'selected' : '' %>>Jessie Pinkman</option>
-	  <option <%= @name == 'Gus Fring' ? 'selected' : '' %>>Gus Fring</option>
+	  <select name="barber" class="form-control">
+	  <option <%= @barber == 'Walter White' ? 'selected' : '' %>>Walter White</option>
+	  <option <%= @barber == 'Jessie Pinkman' ? 'selected' : '' %>>Jessie Pinkman</option>
+	  <option <%= @barber == 'Gus Fring' ? 'selected' : '' %>>Gus Fring</option>
   </select>
   </div>
 
