@@ -28,10 +28,11 @@
       <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61222094">
-              <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.14101058">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
-                <element signature="e#0#2356#0" expanded="false" />
+                <element signature="e#1278#2200#0" expanded="false" />
+                <element signature="e#0#2868#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -174,7 +175,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2356#0" expanded="false" />
+            <element signature="e#1278#2200#0" expanded="false" />
+            <element signature="e#0#2868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -191,7 +193,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2356#0" expanded="false" />
+            <element signature="e#1278#2200#0" expanded="false" />
+            <element signature="e#0#2868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -205,10 +208,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61222094">
-          <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.14101058">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
-            <element signature="e#0#2356#0" expanded="false" />
+            <element signature="e#1278#2200#0" expanded="false" />
+            <element signature="e#0#2868#0" expanded="false" />
           </folding>
         </state>
       </provider>
