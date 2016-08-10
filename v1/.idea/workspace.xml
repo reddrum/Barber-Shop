@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d47b180-afee-4044-8d24-eb2c632398c8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.rb" afterPath="$PROJECT_DIR$/app.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/visit.erb" afterPath="$PROJECT_DIR$/views/visit.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.erb" afterPath="$PROJECT_DIR$/views/layout.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/showusers.erb" afterPath="$PROJECT_DIR$/views/showusers.erb" />
     </list>
     <ignored path="Lesson23.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +28,9 @@
       <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4759107">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.15393655">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
-                <element signature="e#1355#2277#0" expanded="false" />
                 <element signature="e#0#2945#0" expanded="false" />
               </folding>
             </state>
@@ -175,7 +174,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1355#2277#0" expanded="false" />
             <element signature="e#0#2945#0" expanded="false" />
           </folding>
         </state>
@@ -193,7 +191,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1355#2277#0" expanded="false" />
             <element signature="e#0#2945#0" expanded="false" />
           </folding>
         </state>
@@ -208,10 +205,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4759107">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.15393655">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
-            <element signature="e#1355#2277#0" expanded="false" />
             <element signature="e#0#2945#0" expanded="false" />
           </folding>
         </state>
